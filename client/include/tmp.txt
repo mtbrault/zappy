@@ -1,0 +1,23 @@
+ZAPPY IA
+
+Class	client :
+	ctor, dtor
+	connect (port, host, team)
+		connecte au serveur;
+	run (port, host, team)
+		while checkend
+			getInputs
+			give inputs to IA (think)
+			send outputs from IA
+	checkend;
+	receive;
+	send;
+
+Class IA
+	IA()
+	~IA
+
+	think vec<string> -> vec<string>
+	getStoneList -> vec<String>
+
+	
